@@ -1,0 +1,39 @@
+/* styles for quiz */
+#myQuiz {
+	overflow:hidden;
+	height:800px;
+	background:#8FB240;
+	padding:20px;
+	border-radius:6px;
+}
+
+/* intro */
+
+#myQuiz .intro{
+	border:1px solid grey;
+	border-radius:6px;
+	padding:16px;
+	position:relative;
+	background:white;
+}
+
+#myQuiz .intro h1 { font-weight: 900; }
+
+#myQuiz .intro .btn, #myQuiz .answers .btn {
+	border:1px solid black;
+	border-radius:6px;
+	padding:6px;
+	width:40%;
+	line-height:30px;
+	margin:20px;
+}
+/* hover states */
+
+#myQuiz .intro .btn:hover, #myQuiz .answers .btn:hover {
+	background:#f5f5f5;
+	font-size:1.025em;
+}
+
+/* questions */
+
+

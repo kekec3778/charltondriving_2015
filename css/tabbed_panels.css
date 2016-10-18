@@ -1,0 +1,50 @@
+.tabs {
+	margin: 0;
+	padding: 0;	
+	zoom : 1;
+	-moz-border-radius:5px;
+}
+.tabs li {
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.tabs a {
+	display: block;
+	text-decoration: none;
+	padding: 3px 20px;
+	background-color: #f5f5f5;
+	margin-right: 1px;
+	border: 1px solid #ddd;
+	margin-bottom: -1px;
+	border-radius:3px 3px 0px 0px;
+        font-family:'Lilita One', sans-serif;
+}
+
+.tabs a:hover {
+    text-decoration:none;
+    color:#E2B322;
+}
+.tabs .active {
+	border-bottom: 1px solid white;
+	background-color: white;
+	color: #AF402A;
+	position: relative;
+}
+
+.panelContainer {
+	clear: both;
+	margin-bottom: 25px;	
+	border: 1px solid #ddd;	
+	background-color: white;
+	padding: 10px;
+}
+
+.panel h2 {
+	color: grey;
+	text-shadow: none;		
+}
+.panel p {
+	color: black;	
+}

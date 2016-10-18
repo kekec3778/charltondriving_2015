@@ -1,0 +1,271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fon",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"snip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Snippet:a",
+				"Snippet: <?php foreach (…) … <?php endforeach ?>"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"	",
+				"About"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"file_history":
+	[
+		"/C/wamp/www/charltondriving_2015/css/sass/sass.scss",
+		"/C/wamp/www/charltondriving_2015/gulpfile.js",
+		"/C/wamp/www/charltondriving_2015/css-2016/mixins/media.css",
+		"/C/wamp/www/charltondriving_2015/includes/footer.php",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/footer.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/panels.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/base/global.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/misc.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/jumbotron.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/headings.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/nav.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/temp/styles.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/base/variables.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/base/fonts.css",
+		"/C/wamp/www/charltondriving_2015/index.php",
+		"/C/Users/Neil/Desktop/git/travel-site/gulp/tasks/watch.js",
+		"/C/Users/Neil/Desktop/git/travel-site/gulp/tasks/styles.js",
+		"/C/Users/Neil/Desktop/git/travel-site/gulpfile.js",
+		"/C/wamp/www/charltondriving_2015/sublime_practice.html",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/wamp/www/charltondriving_2015/Neil Cartwright is using sublime text.html",
+		"/C/wamp/www/charltondriving_2015/css/custom.css",
+		"/C/wamp/www/charltondriving_2015/package.json",
+		"/C/wamp/www/charltondriving_2015/php.ini",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences (Windows).sublime-settings",
+		"/C/wamp/www/charltondriving_2015/charlton driving school 2015.sublime-project",
+		"/C/Users/Neil/Links/selkent.lnk",
+		"/C/Users/Neil/Links/waratah.lnk",
+		"/C/wamp/www/charltondriving_2015/new-css.css",
+		"/C/wamp/www/charltondriving_2015/includes/main_content.php",
+		"/C/wamp/www/charltondriving_2015/css/sass/new-css.css",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/User/PHP.sublime-settings",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp/www/charltondriving_2015/css-2016/styles.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/modules/_hero.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/base/_mixins.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/base/_base.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/styles.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/index.html",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/modules/_base.css",
+		"/C/Users/Neil/Desktop/git/travel-site/package.json",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/base/_vars.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/base/mixins.js",
+		"/C/Users/Neil/Desktop/git/travel-site/app/temp/styles/styles.css",
+		"/C/Users/Neil/Desktop/git/travel-site/gulp/tasks/watchjs",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Neil/Desktop/AKQA Web Developer Exercise_2010 (zipped) Folder/index.htm",
+		"/C/Users/Neil/Desktop/AKQA Web Developer Exercise_2010 (zipped) Folder/requirements",
+		"/C/wamp/www/ajax/xmlhttpreq/ajax.html",
+		"/C/wamp/www/sandbox/ajax/ajax.html",
+		"/C/wamp/www/charltondriving_2015/members/members-home.php",
+		"/C/wamp/www/charltondriving_2015/members/bus_lanes.php",
+		"/C/Users/Neil/Documents/Driving School/Charlton Driving Sch/www.charltondriving.com/tips/bus_lanes.html",
+		"/C/wamp/www/charltondriving_2015/includes/nav.php",
+		"/C/wamp/www/charltondriving_2015/members/pedestrian-crossings.php",
+		"/C/wamp/www/charltondriving_2015/members/showtell.php",
+		"/C/wamp/www/charltondriving_2015/members/level_crossings.php",
+		"/C/Users/Neil/Documents/Driving School/Charlton Driving Sch/www.charltondriving.com/tips/pedestrian_crossings.html",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/wamp/www/sandbox/javascript_dom_practice",
+		"/C/wamp/www/selkent/_members/find_by_area.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"no_bullets",
+			"footer",
+			"}\n",
+			"image",
+			"contact",
+			">",
+			"});\n",
+			"\n</",
+			"	\n",
+			">",
+			"\n<",
+			"Lorem",
+			"Neil Cartwright",
+			"colors",
+			"PDI",
+			"ADI"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"",
+				"package.json"
+			],
+			[
+				"i",
+				"index.php"
+			],
+			[
+				"php.ini",
+				"php.ini"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"new-css",
+				"new-css.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/wamp/www/waratah/wd-residents.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 520.0,
+	"status_bar_visible": true
+}

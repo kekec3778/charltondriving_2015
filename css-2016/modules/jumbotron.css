@@ -1,0 +1,10 @@
+.jumbotron {
+	background:$red;
+	margin:0;
+
+		#heading {
+	      color:$yellow;
+	      font-size:36pt;
+	      margin-top:11px;
+		}	
+}

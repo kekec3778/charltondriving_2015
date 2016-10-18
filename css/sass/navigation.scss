@@ -1,0 +1,61 @@
+.navbar {
+    margin:0;
+    border-radius:0;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:$blue;
+}
+
+// links
+.navbar .navbar-inverse .navbar-nav>li>a:focus, .navbar .navbar-inverse .navbar-nav>li>a:hover {
+    color:$blue;
+    opacity:0.9;
+}
+
+.dropdown-menu {
+    background: #101010;
+    padding: 0;
+}
+
+.dropdown-menu>li>a {
+    color: rgb(226,179,34);
+    background: #222222;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+// icon hamburger
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color:$yellow;
+}
+
+// brand
+.navbar-inverse .navbar-brand {
+    color:$yellow;
+    text-transform:capitalize;
+}
+.navbar-inverse .navbar-brand:hover {
+    color:$yellow;
+    opacity:0.9;
+    position:relative;
+}
+
+
+.navig ul li a {
+    color:$blue;
+    font-weight:$bold_font;
+}
+
+navbar-inverse ul li a.login_button {
+    color:$yellow;
+}
+
+ul li a.login_button:hover {
+    color:$yellow;
+    opacity:0.9;
+    }

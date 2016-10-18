@@ -1,0 +1,74 @@
+.quizLoader {
+    margin-left:auto;
+    margin-right:auto;
+}
+.quizContainer {
+    font-family: 'Lilita One', sans-serif;
+}
+#results {
+    width:200px;
+    height:200px;
+    line-height:200px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+#quizContainer {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+input[type="submit"]#submit {
+    margin:10px;
+    padding:10px;
+    width:100%;
+}
+input[type="radio"] {
+    width:1.5em;
+    height:1.5em;
+}
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+td {
+    text-align:left;
+    padding:5px;
+}
+#question {
+    margin-bottom:10px;
+    text-transform:uppercase;
+    font-size:14pt;
+    text-align:center;
+}
+#answer {
+    color:green !important;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:13pt;
+}
+
+.correct {
+    color:green;
+    text-transform:uppercase;
+}
+.incorrect {
+    color:red;
+}
+
+span.tick, span.cross {
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:15px;
+    height:15px;
+    margin-left:5px;
+}
+span.tick {
+    background:url('../img/tick.png');
+
+}
+span.cross {
+    background:url('../img/cross.png');
+}

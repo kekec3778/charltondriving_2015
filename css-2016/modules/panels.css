@@ -1,0 +1,35 @@
+.panel-body {
+	font-family:$alt-font;
+
+	#contact_info li a {
+			font-weight:800;
+			font-size:15pt;
+	}
+	#contact_info li a:hover {
+		text-decoration: none;
+		opacity:0.9;
+	}
+
+}
+
+.panel-heading h1 {
+    color:$red;
+    font-size:16pt;
+}
+
+.panel-heading h1 @mixin atSmallest {
+	display:none;
+}
+.panelContainer {
+	font-family:$alt-font;
+}
+.panelContainer h3 {
+	font-family:$head-font;
+}
+.panel_go @mixin atSmall {
+	display:none;
+}
+
+.well:hover {
+	opacity:0.9;
+}

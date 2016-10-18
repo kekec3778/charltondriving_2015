@@ -1,0 +1,31 @@
+/* vehicle images on show/tell page */
+.vehicle {
+    /* nissan note pics on show tell page */
+    width:200px;
+    height:158px;
+}
+.vehicle_table button {
+    border-right:2px solid #7a7a7a;
+    border-bottom:2px solid #7a7a7a;
+}
+.vehicle_table button:hover {
+    color:orange;
+    border-right:1px solid #7a7a7a;
+    border-bottom:1px solid #7a7a7a;
+}
+.vehicle_table button:active {
+    color:green;
+}
+.rear_lights img {
+    margin:30px;
+}
+.front_lights img {
+    margin:30px;
+}
+.rear_lights button {
+    margin:0px;
+}
+
+input[type='number'] #mph {
+    width:70px;
+}

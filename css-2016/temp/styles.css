@@ -1,0 +1,119 @@
+@import 'https://fonts.googleapis.com/css?family=Lilita+One';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,800';
+@import 'mixins/media.css';
+body {
+	font-family:'Lilita One', sans-serif;
+}
+p+img {
+    margin-top:2em;
+}
+.img-margin {
+	margin:6px;
+}
+.navbar {
+    margin:0;
+    border-radius:0;
+    font-size:12pt;
+}
+.navbar-inverse .navbar-brand {
+	color:#E2B322;
+}
+.navbar-inverse .navbar-brand:hover {
+	color:#E2B322;
+	opacity:0.9;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:#0074CE;
+}
+.navbar-inverse .navbar-nav>li>a:focus, 
+    .navbar-inverse .navbar-nav>li>a:hover {
+	color:#0074CE;
+	opacity:0.9;
+}
+.navbar-inverse ul>li>a.login_button {
+	color:#E2B322;
+}
+.navbar-inverse ul>li>a.login_button:hover {
+	color:#E2B322;
+	opacity:0.9;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color:#E2B322;
+}
+.navbar-inverse .dropdown-menu {
+	background: #222222;
+	padding: 0;
+}
+.navbar-inverse .dropdown-menu li>a {
+	background: #222222;
+	clear: both;
+	color: #333;
+	color: #0074CE;
+	display: block;
+	font-weight: 400;
+	line-height: 1.42857143;
+	padding: 3px 20px;
+	white-space: nowrap;
+}
+.jumbotron {
+
+	background:#AF402A;
+	margin:0;
+
+}
+.jumbotron #heading {
+	color:#E2B322;
+	font-size:36pt;
+	margin-top:11px;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-transform:uppercase;
+  color:#0074CE;
+}
+.page-header h1, 
+.page-header h2 {
+        color:#AF402A;
+        font-size:20pt;
+    }
+.panel-body {
+	font-family:'Open Sans', sans-serif;
+
+}
+.panel-body #contact_info li a {
+	font-weight:800;
+	font-size:15pt;
+}
+.panel-body #contact_info li a:hover {
+	text-decoration: none;
+	opacity:0.9;
+}
+.panel-heading h1 {
+    color:#AF402A;
+    font-size:16pt;
+}
+.panel-heading h1 @mixin atSmallest {
+	display:none;
+}
+.panelContainer {
+	font-family:'Open Sans', sans-serif;
+}
+.panelContainer h3 {
+	font-family:'Lilita One', sans-serif;
+}
+@media (max-width:540px) {
+	.panel_go {
+		display:none;
+	}
+}
+.well:hover {
+	opacity:0.9;
+}
+.theory-test-pro {
+	max-width:100%;
+}
+.footer {
+	list-style:none;
+  padding:20px;
+  font-family:'Open Sans', sans-serif;
+  font-size:10pt;
+}

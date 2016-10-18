@@ -1,0 +1,25 @@
+<!--areas-->
+    <table class="table table-hover table-bordered" id="areas">
+    <tbody>
+		<tr><td colspan="2"><strong>South East London</strong></td></tr>
+      <tr><td>SE3</td><td><a href="areas/driving-lessons-in-blackheath-kidbrooke-se3.php">Blackheath, Kidbrooke</a></td></tr>
+	  <tr><td>SE6</td><td>Catford,  Bellingham</td></tr>
+	  <tr><td>SE7</td><td><a href="areas/driving-lessons-in-charlton-se7.php">Charlton</a></td></tr>
+	  <tr><td>SE9</td><td><a href="areas/driving-lessons-in-eltham-london-se9.php">Eltham, New Eltham,  Mottingham</a></td></tr>
+	  <tr><td>SE10</td><td><a href="areas/driving-lessons-in-greenwich-se10.php">Greenwich,  North Greenwich</a></td></tr>
+	  <tr><td>SE12</td><td><a href="areas/driving-lessons-in-lee-and-grove-park-se12.php">Lee,  Grove Park</a></td></tr>
+	  <tr><td>SE13</td><td><a href="areas/driving-lessons-in-lewisham-and-hither-green-se13.php">Lewisham,  Hither Green</a></td></tr>
+	  <tr><td>SE18</td><td><a href="areas/driving-lessons-in-woolwich-shooters-hill-plumstead-se18.php">Shooters Hill, Plumstead,  Woolwich</a></td></tr>
+	  <tr><td colspan="2"><strong>Bromley</strong></td></tr>
+	  <tr><td>BR1</td><td><a href="areas/driving-lessons-in-bromley-br1.php">Bromley</a></td></tr>
+	  <tr><td>BR2</td><td>Hayes, Shortlands, Bromley Common, Keston</td></tr>
+	  <tr><td>BR3</td><td>Beckenham, Elmers End, Eden Park</td></tr>
+	  <tr><td>BR4</td><td>West Wickham</td></tr>
+	  <tr><td>BR5</td><td><a href="areas/driving-lessons-in-petts-wood-br5.php">Petts Wood, St Mary Cray, St Paul's Cray</a></td></tr>
+	  <tr><td>BR6</td><td>Orpington</td></tr>
+	  <tr><td>BR7</td><td><a href="areas/driving-lessons-in-chislehurst-br7.php">Chislehurst, Elmstead</a></td></tr>
+	  <tr><td colspan="2"><strong>Bexley and Sidcup</td></tr>
+	  <tr><td>DA5</td><td>Bexley, Albany Park, Joydens Wood</td></tr>
+	  <tr><td>DA14</td><td><a href="areas/driving-lessons-in-sidcup-da14.php">Sidcup, Foots Cray</a></td></tr>
+    </tbody>
+    </table>

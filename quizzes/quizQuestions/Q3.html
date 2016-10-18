@@ -1,0 +1,40 @@
+
+
+<div>
+
+
+<h1 class="text-center">Question {{ questions[2].questionNumber }}</h1>
+<p class="text-center"><strong>{{ questions[2].question }}</strong></p>
+
+<div id="images" class="text-center bg-info">
+		<img class="img-thumbnail img-margin" src="{{questions[2].src}}">
+</div>
+
+<div id="answers">
+		
+		<form id="myForm">
+			<table class="table table-bordered">
+				<tr><td class="text-center" id="ans1">{{ questions[2].answers.answer1 }}</td><td class="text-center"><input type="radio" name="answers" id="a1"></label></td></tr>
+				
+				<tr><td class="text-center" id="ans2">
+				{{ questions[2].answers.answer2 }}
+				</td><td class="text-center"><input type="radio" name="answers" id="a2"></label></td></tr>
+				
+				<tr><td class="text-center" id="ans3">
+				{{questions[2].answers.answer3 }}
+				</td><td class="text-center"><input type="radio" name="answers" id="a3"></label></td></tr>
+				
+				<tr><td class="text-center" id="ans4">
+				{{ questions[2].answers.answer4 }}</td><td class="text-center"><input type="radio" name="answers" id="a4"></label></td></tr>
+				
+				<tr><td></td><td class="text-center">
+				<a href="#/Q{{ questions[2].questionNumber - 1 }}"><input type="button" id="change_back" value="Previous Question" ng-click="counterDown()"></a>
+				
+				<a href="#/Q{{ questions[2].questionNumber + 1 }}"><input type="button" id="change_forward" value="Next Question" ng-click="counterUp()"></a></td></tr>
+			</table>
+		</form>
+		
+</div>
+		
+
+</div>

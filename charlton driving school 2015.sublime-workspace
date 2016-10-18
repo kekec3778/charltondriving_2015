@@ -1,0 +1,216 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Set Syntax: HTML (Erlang)"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"file_history":
+	[
+		"/C/wamp/www/charltondriving_2015/index.php",
+		"/C/wamp/www/charltondriving_2015/css/sass/sass.scss",
+		"/C/wamp/www/charltondriving_2015/php.ini",
+		"/C/wamp/www/charltondriving_2015/new-css.css",
+		"/C/wamp/www/charltondriving_2015/includes/main_content.php",
+		"/C/wamp/www/charltondriving_2015/gulpfile.js",
+		"/C/wamp/www/charltondriving_2015/css/sass/new-css.css",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/User/PHP.sublime-settings",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp/www/charltondriving_2015/css-2016/styles.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/base/global.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/nav.css",
+		"/C/wamp/www/charltondriving_2015/package.json",
+		"/C/wamp/www/charltondriving_2015/css-2016/temp/styles.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/modules/_hero.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/base/_mixins.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/base/_base.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/styles.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/index.html",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/modules/_base.css",
+		"/C/Users/Neil/Desktop/git/travel-site/gulpfile.js",
+		"/C/Users/Neil/Desktop/git/travel-site/package.json",
+		"/C/Users/Neil/Desktop/git/travel-site/gulp/tasks/styles.js",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/base/_vars.css",
+		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/base/mixins.js",
+		"/C/Users/Neil/Desktop/git/travel-site/gulp/tasks/watch.js",
+		"/C/Users/Neil/Desktop/git/travel-site/app/temp/styles/styles.css",
+		"/C/Users/Neil/Desktop/git/travel-site/gulp/tasks/watchjs",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Neil/Desktop/AKQA Web Developer Exercise_2010 (zipped) Folder/index.htm",
+		"/C/Users/Neil/Desktop/AKQA Web Developer Exercise_2010 (zipped) Folder/requirements",
+		"/C/wamp/www/ajax/xmlhttpreq/ajax.html",
+		"/C/wamp/www/sandbox/ajax/ajax.html",
+		"/C/wamp/www/charltondriving_2015/members/members-home.php",
+		"/C/wamp/www/charltondriving_2015/members/bus_lanes.php",
+		"/C/wamp/www/charltondriving_2015/css/custom.css",
+		"/C/Users/Neil/Documents/Driving School/Charlton Driving Sch/www.charltondriving.com/tips/bus_lanes.html",
+		"/C/wamp/www/charltondriving_2015/includes/nav.php",
+		"/C/wamp/www/charltondriving_2015/members/pedestrian-crossings.php",
+		"/C/wamp/www/charltondriving_2015/members/showtell.php",
+		"/C/wamp/www/charltondriving_2015/members/level_crossings.php",
+		"/C/Users/Neil/Documents/Driving School/Charlton Driving Sch/www.charltondriving.com/tips/pedestrian_crossings.html",
+		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/wamp/www/sandbox/javascript_dom_practice",
+		"/C/wamp/www/selkent/_members/find_by_area.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"colors",
+			"PDI",
+			"ADI"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.484075832538,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"i",
+				"index.php"
+			],
+			[
+				"",
+				"index.php"
+			],
+			[
+				"php.ini",
+				"php.ini"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"new-css",
+				"new-css.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 146.0,
+	"status_bar_visible": true
+}

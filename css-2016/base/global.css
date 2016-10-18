@@ -1,0 +1,11 @@
+body {
+	font-family:$head-font;
+}
+
+p+img {
+    margin-top:2em;
+}
+
+.img-margin {
+	margin:6px;
+}

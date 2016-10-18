@@ -1,0 +1,42 @@
+
+
+<div ng-repeat="Question in questions">
+<h1 class="text-center">Question {{ questions[$index].questionNumber }}/{{questions.length}}</h1>
+<p class="text-center"><strong>{{ questions[$index].question }}</strong></p>
+
+<div id="images" class="text-center bg-info">
+		<img class="img-thumbnail img-margin" src="{{questions[$index].src}}">
+</div>
+
+<div id="answers">
+		
+		<form id="myForm">
+			<table class="table table-bordered">
+			
+			<!-- questions loop -->
+				<tr ng-repeat="Answer in questions[$index].answers"><td class="text-center" id="ans1" value="{{ Answer }}"
+				
+				>{{ Answer }}</td><td class="text-center"><input type="radio" name="answers" id="a1"></label></td></tr>
+			<!-- end of questions loop -->
+			
+			
+				<tr><td></td><td class="text-center"><a href="#/Q{{ questions[$index].questionNumber + 1 }}"><input type="button" id="change_forward" value="Next Question"></a></td></tr>
+			</table>
+		</form>
+		
+</div>
+		
+<script>
+$('#myForm').on('change', 'input', function() {
+		var checked = $('#myForm input[type="radio"]:checked').val();
+		var el = $('#myForm input[type="radio"]:checked');
+		
+		
+		if(checked == questions[$index].correct_answer) {
+			alert('correct');
+		} else {
+			alert('That is not correct');
+		}
+	});
+</script>
+</div>

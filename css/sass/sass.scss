@@ -1,0 +1,209 @@
+@import 'https://fonts.googleapis.com/css?family=Lilita+One';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,800';
+@import 'show_tell';
+
+
+// colors
+$blue:#0074CE;
+$yellow:#E2B322;
+$red:#AF402A;
+$grey:#e5e5d8;
+$black:#222222;
+$white:#fff;
+// fonts
+$head-font:'Lilita One', sans-serif;
+$alt-font:'Open Sans', sans-serif;
+//weights
+$light_font:300;
+$med_font:400;
+$bold_font:800;
+
+
+// blocks
+body {
+    font-family:'Open Sans', sans-serif;
+    color:$black;
+}
+//images
+p+img {
+    margin-top:2em;
+}
+
+// navigation
+// styles the entire top navbar
+.navbar {
+    margin:0;
+    border-radius:0;
+}
+// styles the links hover/focus in the inverse navbar
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color:$blue;
+    opacity:0.9;
+}
+// styles the particular link to do with login
+.navbar-inverse .navbar-nav > li > a.login_button:hover {
+    color:$yellow;
+}
+// styles the 'charlton driving school' section
+.navbar-inverse .navbar-brand:hover {
+    color:$yellow;
+    opacity:0.9;
+    position:relative;
+}
+
+// styles the dropdown menu links
+.dropdown-menu>li>a {
+    color: $blue;
+    background: #222222;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+a:hover {
+    opacity:0.9;
+}
+.dropdown-menu {
+    background: #101010;
+    padding: 0;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color:$yellow;
+}
+
+
+.breadcrumb {
+    background:$red;
+    font-weight: $bold_font;
+    text-align:right;
+    border-radius:0;
+
+    a, li.active, li {
+        color:$yellow;
+    }
+    a.active {
+        color:$white;
+        opacity:0.9;
+    }
+    a:hover {
+        opacity:0.9;
+        text-decoration:none;
+    }
+}
+
+figcaption {
+    margin-top: 8px;
+    text-align: center;
+    color: blue;
+    font-size: 9pt;
+}
+
+.em {
+    font-style:italic;
+    color:$blue;
+}
+.top-buffer40 {
+    margin:40px 0px;
+}
+.img-margin {
+    margin:6px;
+}
+
+.body {
+    h1, h2, h3, h4, h5, h6, .navbar-brand, #contact_info {
+        font-family: 'Lilita One', sans-serif;
+        text-transform:uppercase;
+        color:$blue;
+    }
+    .navig ul li a {
+        color:$blue;
+        font-weight:$bold_font;
+    }
+    ul li a.login_button {
+        color:$yellow;
+    }
+    #heading {
+        color:$yellow;
+        font-size:36pt;
+        margin-top:11px;
+    }
+    .navbar-brand {
+        color:$yellow;
+        text-transform:capitalize;
+    }
+    .jumbotron {
+        background:$red;
+        margin:0;
+    }
+    .panel-heading h1 {
+        color:$red;
+        font-size:16pt;
+    }
+    .tabbedPanels h3 {
+        color:$red;
+        font-size:16pt;
+    }
+    /*figure {
+        margin:17px;
+    }*/
+    .quiz-block:hover {
+        opacity:0.9;
+    }
+    .theory-test-pro {
+        max-width:100%;
+    }
+    .no_bullets {
+        list-style:none;
+        padding:20px;
+    }
+    #map {
+        height: 400px;
+        margin-left:auto;
+        margin-right:auto;
+        border:1px solid #eee;
+        border-radius:5px;
+        padding:5px;
+    }
+    .page-header h1, .page-header h2, h3 {
+        color:$red;
+    }
+    #contact_info a:hover {
+        text-decoration:none;
+        color:$yellow;
+    }
+}
+
+.members_menu {
+    ul {
+        list-style:none;
+    }
+    a:hover, a:active {
+        opacity:0.9;
+        text-decoration:none;
+    }
+}
+
+.i-box-quiz {
+    #answer {
+        font-family: $head-font;
+    }
+    .answers {
+        margin-left:40px;
+    }
+    input {
+        margin-bottom:25px;
+    }
+    label {
+        width:50%;
+        border:1px solid #eee;
+        padding:20px;
+    }
+}
+
+p input[type="number"] {
+    width:50px !important;
+    margin:0px 10px;
+}

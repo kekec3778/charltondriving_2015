@@ -1,0 +1,38 @@
+
+@media screen and (max-width:990px) {
+    .jumbotron .logo {
+        min-height:0px;
+        padding-top:0px;
+    }
+    .slider {
+        display:none;
+    }
+}
+@media screen and (max-width:775px) {
+    .login-pos{
+        position:relative;
+        left:0px;
+    }
+    .jumbotron .logo {
+        min-height:0px;
+        padding-top:20px;
+    }
+    @media (max-width: 767px) {
+        .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+            color:#F5F5F5;
+            background-color: #377300;
+        }
+    }
+}
+@media screen and (max-width:615px) {
+    .panel_go {
+        display:none;
+    }
+    .jumbotron#bjqs {
+        display:none;
+    }
+    .dur, .payment, .pay_met {
+        display:none;
+    }
+}
+

@@ -1,0 +1,55 @@
+.navbar {
+    margin:0;
+    border-radius:0;
+    font-size:12pt;
+}
+
+.navbar-inverse {
+
+    .navbar-brand {
+        color:$yellow;
+    }
+    .navbar-brand:hover {
+        color:$yellow;
+        opacity:0.9;
+    }
+
+    .navbar-nav>li>a {
+        color:$blue;
+    }
+    .navbar-nav>li>a:focus, 
+    .navbar-nav>li>a:hover {
+        color:$blue;
+        opacity:0.9;
+    }
+
+    ul>li>a.login_button {
+        color:$yellow;
+    }
+    ul>li>a.login_button:hover {
+        color:$yellow;
+        opacity:0.9;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color:$yellow;
+    }
+
+
+    .dropdown-menu {
+        background: $black;
+        padding: 0;
+
+        li>a {
+            background: #222222;
+            clear: both;
+            color: #333;
+            color: $blue;
+            display: block;
+            font-weight: 400;
+            line-height: 1.42857143;
+            padding: 3px 20px;
+            white-space: nowrap;
+        }
+    }
+}
