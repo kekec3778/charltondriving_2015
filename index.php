@@ -21,18 +21,11 @@ require_once 'php_scripts/pages_array.php';
 
     <link rel="stylesheet" type="text/css" href="css/tabbed_panels.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <!--<link rel="stylesheet" type="text/css" href="css/custom.css">-->
-    <!-- <link rel="stylesheet" type="text/css" href="css/sass/new-css.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/media-queries.css"> -->
     <link rel="stylesheet" type="text/css" href="css-2016/temp/styles.css">
     <link rel="stylesheet" href="css/bjqs.css">
     <link rel="stylesheet" href="text-rotate/simpletextrotator.css">
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-    <!-- jquery UI -->
-    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
     <!-- bootstrap -->
     <script src="bootstrap/js/bootstrap.js"></script>
     <!--jquery tabbed panels-->
