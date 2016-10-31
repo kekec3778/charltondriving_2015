@@ -64,6 +64,10 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/chislehurst_driving_school/resources/sass/sassy-styles.scss",
+		"/C/wamp/www/chislehurst_driving_school/resources/views/home.blade.php",
+		"/C/wamp/www/chislehurst_driving_school/package.json",
+		"/C/wamp/www/chislehurst_driving_school/gulpfile.js",
 		"/C/wamp/www/charltondriving_2015/css/sass/sass.scss",
 		"/C/wamp/www/charltondriving_2015/gulpfile.js",
 		"/C/wamp/www/charltondriving_2015/css-2016/mixins/media.css",
@@ -257,7 +261,7 @@
 		[
 			[
 				"",
-				"/C/wamp/www/waratah/wd-residents.sublime-project"
+				"/C/wamp/www/charltondriving_2015/charlton driving school 2015.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -266,6 +270,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 520.0,
+	"side_bar_width": 202.0,
 	"status_bar_visible": true
 }

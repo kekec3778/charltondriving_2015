@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1273,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -118,8 +126,36 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"settings":
+					{
+						"buffer_size": 1273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1273
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 322.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -201,16 +237,20 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/C/wamp/www/charltondriving_2015/css-2016/modules/chislehurst_driving_school_2016.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 146.0,
+	"side_bar_width": 272.0,
 	"status_bar_visible": true
 }
