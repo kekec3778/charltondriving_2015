@@ -11,7 +11,7 @@ require_once '../includes/nav.php';
     <li class="active">Hills</li>
 </ol>
 <div class="container">
-    <div class="row">
+    <div class="row row-with-bottom-margin">
         <div class="col-sm-12">
             <div class="page-header"><h1>Hills</h1></div>
             <p class="top-buffer20"></p>
@@ -58,7 +58,6 @@ require_once '../includes/nav.php';
             </div>	<!--nested row-->
         </div><!--column-->
     </div><!--row-->
-
 
     <div class="row">
         <div class="col-sm-6 top-buffer40">

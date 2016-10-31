@@ -9,3 +9,11 @@ p+img {
 .img-margin {
 	margin:6px;
 }
+
+p, input, label, .btn, ul:not(.nav) {
+	font-family: $alt-font;
+}
+
+.row-with-bottom-margin {
+	margin-bottom: 30px;
+}

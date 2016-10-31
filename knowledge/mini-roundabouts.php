@@ -12,7 +12,7 @@ require_once '../includes/nav.php';
     <li class="active">Mini Roundabouts</li>
 </ol>
 <div class="container">
-    <div class="row">
+    <div class="row row-with-bottom-margin">
         <div class="col-sm-12">
             <div class="page-header"><h1>Mini Roundabouts</h1></div>
             <p class="top-buffer20"></p>

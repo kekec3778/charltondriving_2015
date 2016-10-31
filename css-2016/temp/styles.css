@@ -9,6 +9,22 @@ p+img {
 .img-margin {
 	margin:6px;
 }
+p, input, label, .btn, ul:not(.nav) {
+	font-family: 'Open Sans', sans-serif;
+}
+.row-with-bottom-margin {
+	margin-bottom: 30px;
+}
+figcaption {
+    margin-top: 8px;
+    text-align: center;
+    color: #0074CE;
+    font-size: 9pt;
+}
+figure {
+	font-family:'Open Sans', sans-serif;
+	font-size:14pt;
+}
 .navbar {
     margin:0;
     border-radius:0;
@@ -49,7 +65,7 @@ p+img {
 	color: #333;
 	color: #0074CE;
 	display: block;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 1.42857143;
 	padding: 3px 20px;
 	white-space: nowrap;
@@ -109,10 +125,54 @@ h1, h2, h3, h4, h5, h6 {
 .theory-test-pro {
 	max-width:100%;
 }
+.breadcrumb {
+  background: #AF402A;
+  font-weight: 300;
+  text-align: right;
+  border-radius: 0; }
+.breadcrumb a, .breadcrumb li.active, .breadcrumb li {
+  color: #E2B322; }
+.breadcrumb a.active {
+  color: #fff;
+  opacity: 0.9; }
+.breadcrumb a:hover {
+  opacity: 0.9;
+  text-decoration: none; 
+  }
 .footer {
 	list-style:none;
   padding:20px;
   font-family:'Open Sans', sans-serif;
   font-size:10pt;
+}
+/* vehicle images on show/tell page */
+.vehicle {
+    /* nissan note pics on show tell page */
+    width:200px;
+    height:158px;
+}
+.vehicle_table button {
+    border-right:2px solid #7a7a7a;
+    border-bottom:2px solid #7a7a7a;
+}
+.vehicle_table button:hover {
+    color:orange;
+    border-right:1px solid #7a7a7a;
+    border-bottom:1px solid #7a7a7a;
+}
+.vehicle_table button:active {
+    color:green;
+}
+.rear_lights img {
+    margin:30px;
+}
+.front_lights img {
+    margin:30px;
+}
+.rear_lights button {
+    margin:0px;
+}
+input[type='number'] #mph {
+    width:70px;
 }
 /* using post-css */

@@ -1,0 +1,12 @@
+
+figcaption {
+    margin-top: 8px;
+    text-align: center;
+    color: $blue;
+    font-size: 9pt;
+}
+
+figure {
+	font-family:$alt-font;
+	font-size:14pt;
+}

@@ -13,7 +13,7 @@ require_once '../includes/nav.php';
     <li class="active">Pedestrian Crossings</li>
 </ol>
 <div class="container">
-    <div class="row">
+    <div class="row row-with-bottom-margin">
         <div class="col-sm-10 col-sm-offset-1">
             <div class="page-header"><h1>Pedestrian Crossings</h1></div>
             <p class="top-buffer20">There are several different types of pedestrian crossing: </p>

@@ -13,7 +13,7 @@ require_once '../includes/nav.php';
     <li class="active">One Way Streets</li>
 </ol>
 <div class="container">
-    <div class="row">
+    <div class="row row-with-bottom-margin">
         <div class="col-sm-10 col-sm-offset-1">
             <div class="page-header"><h1>One Way Systems</h1></div>
             <p class="top-buffer20"></p>
@@ -68,7 +68,7 @@ require_once '../includes/nav.php';
 
     <div class="row">
         <div class="col-sm-6 top-buffer40">
-            <div class="h-code">
+            <div class="well">
                 <h2>Highway Code Rule 143</h2>
                 <img src="../img/road_signs/blue_direction_left.png" alt="go left" class="pull-right">
                 <p>One-way streets. Traffic MUST travel in the direction indicated by signs. Buses and/or cycles may have a contraflow lane. Choose the correct lane for your exit as soon as you can. Do not change lanes suddenly. Unless road signs or markings indicate otherwise, you should use</p>
@@ -84,7 +84,7 @@ require_once '../includes/nav.php';
 
 
         <div class="col-sm-6 top-buffer40">
-            <div class="i-box">
+            <div class="well">
                 <figure id="figr-5">
                     <img src="../img/graphics/green_no_right_turn_roundabout.png" alt="no right turn go round roundabout" class="center-block img-responsive">
                 </figure>
@@ -99,7 +99,7 @@ require_once '../includes/nav.php';
                 </script>
             </div>
 
-            <div class="i-box top-buffer20">
+            <div class="well">
                 <figure id="figr-4">
                     <img src="../img/graphics/graphic_road_marking_one_way.png" alt="graphic road marking one way" class="img-responsive center-block">
                 </figure>

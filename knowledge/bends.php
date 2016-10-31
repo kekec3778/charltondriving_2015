@@ -14,7 +14,7 @@ require_once '../includes/nav.php';
     <li class="active">Bends</li>
 </ol>
 <div class="container">
-    <div class="row">
+    <div class="row row-with-bottom-margin">
         <div class="col-sm-12">
             <div class="page-header"><h1>Bends</h1></div>
 
