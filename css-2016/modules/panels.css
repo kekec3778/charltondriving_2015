@@ -33,3 +33,20 @@
 .well:hover {
 	opacity:0.9;
 }
+
+h4.panel-title {
+	color:$red;
+}
+.panel_go {
+	display:none;
+}
+
+@mixin atSmall {
+	.panel_go {
+		display:inherit;
+	}
+}
+
+.panel-heading.subject-header, select {
+	font-family:$alt-font;
+}

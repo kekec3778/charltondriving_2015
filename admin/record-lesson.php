@@ -164,9 +164,9 @@ if (isset($lesson_update)) {
 
 <div class="container">
     <div class="row">
-        
+        <div class="page-header text-center"><h1>Record a Lesson</h1></div>
         <div class="col-sm-6">
-            <div class="page-header"><h1>Record a Lesson</h1></div>
+            
 
 
 
@@ -354,7 +354,7 @@ while ($row = $result->fetch_assoc()) {
     <div class="row">
         <div class="col-sm-12">
             <!--submit the entire form-->
-            <button style="width:100%;height:50px;"type="submit" name="submit" class="btn btn-default">Record lesson &amp; email customer</button>
+            <button style="width:100%;height:50px;"type="submit" name="submit" class="btn btn-primary">Record lesson &amp; email customer</button>
             </form>
             <br>
             <br>

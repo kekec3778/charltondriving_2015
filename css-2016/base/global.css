@@ -10,10 +10,14 @@ p+img {
 	margin:6px;
 }
 
-p, input, label, .btn, ul:not(.nav) {
+p, input, label, .btn, ul {
 	font-family: $alt-font;
 }
 
 .row-with-bottom-margin {
 	margin-bottom: 30px;
+}
+
+li a:hover {
+	text-decoration:none;
 }

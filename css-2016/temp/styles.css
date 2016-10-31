@@ -9,11 +9,14 @@ p+img {
 .img-margin {
 	margin:6px;
 }
-p, input, label, .btn, ul:not(.nav) {
+p, input, label, .btn, ul {
 	font-family: 'Open Sans', sans-serif;
 }
 .row-with-bottom-margin {
 	margin-bottom: 30px;
+}
+li a:hover {
+	text-decoration:none;
 }
 figcaption {
     margin-top: 8px;
@@ -28,10 +31,14 @@ figure {
 .navbar {
     margin:0;
     border-radius:0;
-    font-size:12pt;
+    font-size:11pt;
+    font-family:'Open Sans', sans-serif;
+    font-weight:800;
 }
 .navbar-inverse .navbar-brand {
 	color:#E2B322;
+	font-family:'Lilita One', sans-serif;
+	font-weight:300;
 }
 .navbar-inverse .navbar-brand:hover {
 	color:#E2B322;
@@ -65,10 +72,13 @@ figure {
 	color: #333;
 	color: #0074CE;
 	display: block;
-	font-weight: 300;
+	font-weight: 600;
 	line-height: 1.42857143;
 	padding: 3px 20px;
 	white-space: nowrap;
+}
+.navbar-inverse .dropdown-menu li>a:hover {
+	background:#E2B322;
 }
 .jumbotron {
 	background:#AF402A;
@@ -89,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size:20pt;
     }
 .checkbox label {
-	padding-left:20px;
+	padding-left:40px;
 }
 .panel-body {
 	font-family:'Open Sans', sans-serif;
@@ -122,19 +132,46 @@ h1, h2, h3, h4, h5, h6 {
 .well:hover {
 	opacity:0.9;
 }
+h4.panel-title {
+	color:#AF402A;
+}
+.panel_go {
+	display:none;
+}
+@media (min-width:540px){
+	.panel_go{
+		display:inherit;
+	}
+}
+.panel-heading.subject-header, select {
+	font-family:'Open Sans', sans-serif;
+}
 .theory-test-pro {
 	max-width:100%;
 }
+.lesson_recorded {
+	background:#E2B322;
+	color:#AF402A;
+	text-align:center;
+	padding:10px 0px;
+	margin-top:0px;
+	margin-bottom:10px;
+}
 .breadcrumb {
   background: #AF402A;
-  font-weight: 300;
+  font-weight: 600;
   text-align: right;
-  border-radius: 0; }
+  border-radius: 0; 
+  font-family:'Open Sans', sans-serif;
+  margin-bottom:0px;
+}
 .breadcrumb a, .breadcrumb li.active, .breadcrumb li {
-  color: #E2B322; }
+  color: #E2B322; 
+}
 .breadcrumb a.active {
   color: #fff;
-  opacity: 0.9; }
+  opacity: 0.9; 
+}
 .breadcrumb a:hover {
   opacity: 0.9;
   text-decoration: none; 
@@ -174,5 +211,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 input[type='number'] #mph {
     width:70px;
+}
+table {
+	font-family:'Open Sans', sans-serif;
+	font-weight:400;
 }
 /* using post-css */

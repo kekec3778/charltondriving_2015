@@ -1,13 +1,18 @@
 .breadcrumb {
   background: #AF402A;
-  font-weight: 300;
+  font-weight: 600;
   text-align: right;
-  border-radius: 0; }
+  border-radius: 0; 
+  font-family:$alt-font;
+  margin-bottom:0px;
+}
   .breadcrumb a, .breadcrumb li.active, .breadcrumb li {
-  color: #E2B322; }
-    .breadcrumb a.active {
+  color: #E2B322; 
+}
+  .breadcrumb a.active {
   color: #fff;
-  opacity: 0.9; }
+  opacity: 0.9; 
+}
   .breadcrumb a:hover {
   opacity: 0.9;
   text-decoration: none; 

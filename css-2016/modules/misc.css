@@ -1,3 +1,12 @@
 .theory-test-pro {
 	max-width:100%;
 }
+
+.lesson_recorded {
+	background:$yellow;
+	color:$red;
+	text-align:center;
+	padding:10px 0px;
+	margin-top:0px;
+	margin-bottom:10px;
+}

@@ -1,13 +1,17 @@
 .navbar {
     margin:0;
     border-radius:0;
-    font-size:12pt;
+    font-size:11pt;
+    font-family:$alt-font;
+    font-weight:800;
 }
 
 .navbar-inverse {
 
     .navbar-brand {
         color:$yellow;
+        font-family:$head-font;
+        font-weight:300;
     }
     .navbar-brand:hover {
         color:$yellow;
@@ -46,10 +50,14 @@
             color: #333;
             color: $blue;
             display: block;
-            font-weight: 300;
+            font-weight: 600;
             line-height: 1.42857143;
             padding: 3px 20px;
             white-space: nowrap;
+        }
+
+        li>a:hover {
+            background:$yellow;
         }
     }
 }
