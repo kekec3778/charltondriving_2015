@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $title = 'UK Driving Test | Show Me / Tell Me Questions';
 
 

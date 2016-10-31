@@ -27,10 +27,7 @@ if (isset($_POST['submit'])) {
     $rate = isset($_POST['rate']) ? $_POST['rate'] : null;
     $payment = isset($_POST['payment_due']) ? $_POST['payment_due'] : null;
     $payment_method = isset($_POST['payment_method']) ? $_POST['payment_method'] : null;
-
     $cancelled = isset($_POST['optradio']) ? $_POST['optradio'] : 'not cancelled';
-
-
 
     if (!empty($_POST['progress'])) {
         $progress_report = $_POST['progress'];
@@ -50,10 +47,7 @@ if (isset($_POST['submit'])) {
     };
 
 
-
     $notes = isset($_POST['notes']) ? $_POST['notes'] : null;
-
-
     $sql = "INSERT INTO lessons	(customer_id, date, duration, rate, payment, payment_method, cancelled, lesson, progress_report, notes) VALUES ('$customer_id', '$date', '$duration', '$rate', '$payment', '$payment_method', '$cancelled', '$lesson','$progress_report', '$notes');";
 
 
@@ -65,8 +59,6 @@ if (isset($_POST['submit'])) {
         $date = new DateTime($date);
         $format = 'l jS F';
         $date = $date->format($format);
-
-
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         // send email to customer to confirm homework has been set
@@ -172,9 +164,9 @@ if (isset($lesson_update)) {
 
 <div class="container">
     <div class="row">
-        <div class="page-header"><h1>Record a Lesson</h1></div>
+        
         <div class="col-sm-6">
-
+            <div class="page-header"><h1>Record a Lesson</h1></div>
 
 
 

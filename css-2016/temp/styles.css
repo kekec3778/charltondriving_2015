@@ -1,6 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Lilita+One';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,800';
-@import 'mixins/media.css';
 body {
 	font-family:'Lilita One', sans-serif;
 }
@@ -56,10 +55,8 @@ p+img {
 	white-space: nowrap;
 }
 .jumbotron {
-
 	background:#AF402A;
-	margin:0;
-
+	margin:0;	
 }
 .jumbotron #heading {
 	color:#E2B322;
@@ -75,6 +72,9 @@ h1, h2, h3, h4, h5, h6 {
         color:#AF402A;
         font-size:20pt;
     }
+.checkbox label {
+	padding-left:20px;
+}
 .panel-body {
 	font-family:'Open Sans', sans-serif;
 
@@ -100,10 +100,8 @@ h1, h2, h3, h4, h5, h6 {
 .panelContainer h3 {
 	font-family:'Lilita One', sans-serif;
 }
-@media (max-width:540px) {
-	.panel_go {
-		display:none;
-	}
+.panel_go @mixin atSmall {
+	display:none;
 }
 .well:hover {
 	opacity:0.9;
@@ -117,3 +115,4 @@ h1, h2, h3, h4, h5, h6 {
   font-family:'Open Sans', sans-serif;
   font-size:10pt;
 }
+/* using post-css */

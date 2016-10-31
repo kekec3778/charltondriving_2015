@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $title = 'One-Way Streets & Systems';
 require_once '../includes/head.php';
 require_once '../includes/nav.php';

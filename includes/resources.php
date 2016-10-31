@@ -17,9 +17,9 @@ window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>');
 
 <!--css--><!--js-->
 <!--<link rel="stylesheet" type="text/css" href="../css/custom.css">-->
-<link rel="stylesheet" type="text/css" href="../css/sass/new-css.css">
-<link rel="stylesheet" type="text/css" href="../css/media-queries.css">
-<link rel="stylesheet" type="text/css" href="../css/imageQuiz.css">
+<link rel="stylesheet" type="text/css" href="../css-2016/temp/styles.css">
+<!--<link rel="stylesheet" type="text/css" href="../css/media-queries.css">
+<link rel="stylesheet" type="text/css" href="../css/imageQuiz.css">-->
 
 <!-- jquery UI -->
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />

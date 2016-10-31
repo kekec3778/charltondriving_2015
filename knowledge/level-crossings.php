@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $title = 'Level Crossings';
 require_once '../includes/head.php';
 require_once '../includes/nav.php';

@@ -1,4 +1,5 @@
 <?php
+session_start();
 //members home
 
 $title = 'Bends';

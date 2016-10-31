@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 //members home
 $title = 'Bus Lanes';
 require_once '../includes/head.php';

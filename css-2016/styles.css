@@ -5,6 +5,9 @@
 @import 'modules/nav.css';
 @import 'modules/jumbotron.css';
 @import 'modules/headings.css';
+@import 'modules/forms.css';
 @import 'modules/panels.css';
 @import 'modules/misc.css';
 @import 'modules/footer.css';
+
+/* using post-css */

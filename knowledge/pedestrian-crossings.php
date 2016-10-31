@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $title = 'Pedestrian Crossings';
 require_once '../includes/head.php';
 require_once '../includes/nav.php';
