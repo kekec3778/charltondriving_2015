@@ -35,15 +35,15 @@ require_once 'php_scripts/pages_array.php';
 
     <!--bing verification-->
     <meta name="msvalidate.01" content="C64A889DF3CA3241FD857EF970912CF2" />
-     <script>
-        $(document).ready(function() {
-            $(".rotate").textrotator({
-            animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-            separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-            speed: 7000 // How many milliseconds until the next word show.
-            });
+    <script>
+    $(document).ready(function() {
+        $(".rotate").textrotator({
+        animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+        separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+        speed: 7000 // How many milliseconds until the next word show.
         });
-        </script>
+    });
+    </script>
 
 </head>
 <body class="body">

@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Lilita+One';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,800';
+/* GLOBAL STYLES */
 body {
 	font-family:'Lilita One', sans-serif;
 }
@@ -18,6 +19,7 @@ p, input, label, .btn, ul {
 li a:hover {
 	text-decoration:none;
 }
+/* IMAGES */
 figcaption {
     margin-top: 8px;
     text-align: center;
@@ -28,6 +30,7 @@ figure {
 	font-family:'Open Sans', sans-serif;
 	font-size:14pt;
 }
+/* BOOTSTRAP NAVIGATION OVERIDES */
 .navbar {
     margin:0;
     border-radius:0;
@@ -80,6 +83,7 @@ figure {
 .navbar-inverse .dropdown-menu li>a:hover {
 	background:#E2B322;
 }
+/* JUMBOTRON */
 .jumbotron {
 	background:#AF402A;
 	margin:0;	
@@ -89,6 +93,27 @@ figure {
 	font-size:36pt;
 	margin-top:11px;
 }
+/* BREADCRUMBS */
+.breadcrumb {
+  background: #AF402A;
+  font-weight: 600;
+  text-align: right;
+  border-radius: 0; 
+  font-family:'Open Sans', sans-serif;
+  margin-bottom:0px;
+}
+.breadcrumb a, .breadcrumb li.active, .breadcrumb li {
+  color: #E2B322; 
+}
+.breadcrumb a.active {
+  color: #fff;
+  opacity: 0.9; 
+}
+.breadcrumb a:hover {
+  opacity: 0.9;
+  text-decoration: none; 
+  }
+/* HEADINGS */
 h1, h2, h3, h4, h5, h6 {
 	text-transform:uppercase;
   color:#0074CE;
@@ -98,9 +123,11 @@ h1, h2, h3, h4, h5, h6 {
         color:#AF402A;
         font-size:20pt;
     }
+/* FORMS */
 .checkbox label {
 	padding-left:40px;
 }
+/* PANELS */
 .panel-body {
 	font-family:'Open Sans', sans-serif;
 
@@ -146,6 +173,19 @@ h4.panel-title {
 .panel-heading.subject-header, select {
 	font-family:'Open Sans', sans-serif;
 }
+/* TABLES */
+table {
+	font-family:'Open Sans', sans-serif;
+	font-weight:400;
+}
+/* FOOTER */
+.footer {
+	list-style:none;
+  padding:20px;
+  font-family:'Open Sans', sans-serif;
+  font-size:10pt;
+}
+/* MISCELLANEOUS */
 .theory-test-pro {
 	max-width:100%;
 }
@@ -157,32 +197,7 @@ h4.panel-title {
 	margin-top:0px;
 	margin-bottom:10px;
 }
-.breadcrumb {
-  background: #AF402A;
-  font-weight: 600;
-  text-align: right;
-  border-radius: 0; 
-  font-family:'Open Sans', sans-serif;
-  margin-bottom:0px;
-}
-.breadcrumb a, .breadcrumb li.active, .breadcrumb li {
-  color: #E2B322; 
-}
-.breadcrumb a.active {
-  color: #fff;
-  opacity: 0.9; 
-}
-.breadcrumb a:hover {
-  opacity: 0.9;
-  text-decoration: none; 
-  }
-.footer {
-	list-style:none;
-  padding:20px;
-  font-family:'Open Sans', sans-serif;
-  font-size:10pt;
-}
-/* vehicle images on show/tell page */
+/* SPECIFIC TO SHOW/TELL PAGE AND ANIMATIONS */
 .vehicle {
     /* nissan note pics on show tell page */
     width:200px;
@@ -212,8 +227,4 @@ h4.panel-title {
 input[type='number'] #mph {
     width:70px;
 }
-table {
-	font-family:'Open Sans', sans-serif;
-	font-weight:400;
-}
-/* using post-css */
+/* using post-css via gulpfile */

@@ -6,13 +6,15 @@
 
 @import 'modules/nav.css';
 @import 'modules/jumbotron.css';
+@import 'modules/breadcrumbs.css';
 @import 'modules/headings.css';
 @import 'modules/forms.css';
 @import 'modules/panels.css';
-@import 'modules/misc.css';
-@import 'modules/breadcrumbs.css';
-@import 'modules/footer.css';
-@import 'modules/show-tell.css';
 @import 'modules/tables.css';
+@import 'modules/footer.css';
 
-/* using post-css */
+
+@import 'modules/misc.css';
+@import 'modules/show-tell.css';
+
+/* using post-css via gulpfile */
