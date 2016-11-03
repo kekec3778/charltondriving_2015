@@ -18,7 +18,6 @@ require_once 'php_scripts/pages_array.php';
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/logos/favicon.ico">
     <!--css-->
-
     <link rel="stylesheet" type="text/css" href="css/tabbed_panels.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css-2016/temp/styles.css">
@@ -46,7 +45,6 @@ require_once 'php_scripts/pages_array.php';
         });
     });
     </script>
-
 </head>
 <body class="body">
     <!-- fb like button -->
