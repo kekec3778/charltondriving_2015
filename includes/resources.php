@@ -5,6 +5,8 @@
 <!--jquery tabbed panels-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="../js/tabbed_panels.js"></script>
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lilita+One|Open+Sans:300i,400,800" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="../css/tabbed_panels.css">
 <!-- jquery UI for datepicker on record-lesson page -->
 <?php 
