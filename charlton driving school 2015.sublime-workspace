@@ -7,24 +7,20 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 1273,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 35.0,
+		"height": 58.0,
 		"selected_items":
 		[
 			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
 				"",
-				"Set Syntax: HTML (Erlang)"
+				"Convert Case: Upper Case"
 			]
 		],
 		"width": 392.0
@@ -44,18 +40,46 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/show-tell.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/tables.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/styles.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/panels.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/quiz-sections.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/nav.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/misc.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/jumbotron.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/headings.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/forms.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/base/images.css",
 		"/C/wamp/www/charltondriving_2015/index.php",
+		"/C/wamp/www/charltondriving_2015/includes/nav.php",
+		"/C/wamp/www/charltondriving_2015/includes/resources.php",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/breadcrumbs.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/modules/footer.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/base/global.css",
+		"/C/wamp/www/charltondriving_2015/css-2016/base/mixins.css",
+		"/C/wamp/www/charltondriving_2015/admin/record-lesson.php",
+		"/C/wamp/www/charltondriving_2015/knowledge/pedestrian-crossings.php",
+		"/C/wamp/www/charltondriving_2015/knowledge/hills.php",
+		"/C/wamp/www/charltondriving_2015/knowledge/one-ways.php",
+		"/C/wamp/www/charltondriving_2015/knowledge/mini-roundabouts.php",
+		"/C/wamp/www/charltondriving_2015/knowledge/dual-carriageways.php",
+		"/C/wamp/www/charltondriving_2015/knowledge/bends.php",
+		"/C/wamp/www/charltondriving_2015/gulpfile.js",
+		"/C/wamp/www/charltondriving_2015/info/login.php",
+		"/C/wamp/www/charltondriving_2015/admin/admin.php",
+		"/C/wamp/www/charltondriving_2015/knowledge/stopping-distances.php",
+		"/C/wamp/www/charltondriving_2015/knowledge/show-me-tell-me.php",
+		"/C/wamp/www/charltondriving_2015/knowledge/level-crossings.php",
+		"/C/wamp/www/charltondriving_2015/knowledge/bus-lanes.php",
+		"/C/wamp/www/charltondriving_2015/.gitignore",
 		"/C/wamp/www/charltondriving_2015/css/sass/sass.scss",
 		"/C/wamp/www/charltondriving_2015/php.ini",
 		"/C/wamp/www/charltondriving_2015/new-css.css",
 		"/C/wamp/www/charltondriving_2015/includes/main_content.php",
-		"/C/wamp/www/charltondriving_2015/gulpfile.js",
 		"/C/wamp/www/charltondriving_2015/css/sass/new-css.css",
 		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/User/PHP.sublime-settings",
 		"/C/Users/Neil/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/wamp/www/charltondriving_2015/css-2016/styles.css",
-		"/C/wamp/www/charltondriving_2015/css-2016/base/global.css",
-		"/C/wamp/www/charltondriving_2015/css-2016/modules/nav.css",
 		"/C/wamp/www/charltondriving_2015/package.json",
 		"/C/wamp/www/charltondriving_2015/css-2016/temp/styles.css",
 		"/C/Users/Neil/Desktop/git/travel-site/app/assets/styles/modules/_hero.css",
@@ -81,7 +105,6 @@
 		"/C/wamp/www/charltondriving_2015/members/bus_lanes.php",
 		"/C/wamp/www/charltondriving_2015/css/custom.css",
 		"/C/Users/Neil/Documents/Driving School/Charlton Driving Sch/www.charltondriving.com/tips/bus_lanes.html",
-		"/C/wamp/www/charltondriving_2015/includes/nav.php",
 		"/C/wamp/www/charltondriving_2015/members/pedestrian-crossings.php",
 		"/C/wamp/www/charltondriving_2015/members/showtell.php",
 		"/C/wamp/www/charltondriving_2015/members/level_crossings.php",
@@ -121,43 +144,10 @@
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "gulpfile.js",
-					"settings":
-					{
-						"buffer_size": 1273,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1273
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 322.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
 		{
 			"sheets":
 			[
@@ -181,18 +171,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.484075832538,
 			1.0
 		],
 		"rows":
@@ -251,6 +234,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 272.0,
+	"side_bar_width": 156.0,
 	"status_bar_visible": true
 }

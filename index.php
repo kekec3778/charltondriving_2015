@@ -25,6 +25,8 @@ require_once 'php_scripts/pages_array.php';
     <link rel="stylesheet" href="css/bjqs.css">
     <link rel="stylesheet" href="text-rotate/simpletextrotator.css">
     <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One|Open+Sans:300i,400,800" rel="stylesheet">
+    <!-- jquery js -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- bootstrap -->
     <script src="bootstrap/js/bootstrap.js"></script>

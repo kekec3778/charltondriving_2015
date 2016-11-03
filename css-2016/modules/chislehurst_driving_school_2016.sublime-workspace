@@ -15,6 +15,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/wamp/www/chislehurst_driving_school/database/migrations/2016_11_01_205113_create_lessons_table.php",
+			"settings":
+			{
+				"buffer_size": 927,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/chislehurst_driving_school/database/migrations/2014_10_12_000000_create_users_table.php",
+			"settings":
+			{
+				"buffer_size": 699,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/chislehurst_driving_school/config/database.php",
+			"settings":
+			{
+				"buffer_size": 3963,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/chislehurst_driving_school/.env",
+			"settings":
+			{
+				"buffer_size": 482,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -64,6 +96,10 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/chislehurst_driving_school/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php",
+		"/C/wamp/www/chislehurst_driving_school/config/database.php",
+		"/C/wamp/www/chislehurst_driving_school/app/Http/Controllers/PageController.php",
+		"/C/wamp/www/chislehurst_driving_school/readme.md",
 		"/C/wamp/www/chislehurst_driving_school/resources/sass/sassy-styles.scss",
 		"/C/wamp/www/chislehurst_driving_school/resources/views/home.blade.php",
 		"/C/wamp/www/chislehurst_driving_school/package.json",
@@ -183,6 +219,116 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/chislehurst_driving_school/database/migrations/2016_11_01_205113_create_lessons_table.php",
+					"settings":
+					{
+						"buffer_size": 927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								758,
+								758
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp/www/chislehurst_driving_school/database/migrations/2014_10_12_000000_create_users_table.php",
+					"settings":
+					{
+						"buffer_size": 699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/wamp/www/chislehurst_driving_school/config/database.php",
+					"settings":
+					{
+						"buffer_size": 3963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2351,
+								2351
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 855.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/wamp/www/chislehurst_driving_school/.env",
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -228,6 +374,10 @@
 		"selected_items":
 		[
 			[
+				"illumiation/migration.php",
+				"vendor/laravel/framework/src/Illuminate/Database/Migrations/Migration.php"
+			],
+			[
 				"index",
 				"index.php"
 			],
@@ -270,6 +420,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 202.0,
+	"side_bar_width": 267.0,
 	"status_bar_visible": true
 }
